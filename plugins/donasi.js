@@ -9,16 +9,16 @@ let duit = `*────── 「 DONATE 」 ──────*
 
 Hai 👋
 Kalian bisa mendukung saya agar bot ini tetap up to date dengan:
-┌〔 Donasi • Emoney 〕
-├🏧 081351047727 (OVO/Dana/GoPay)
-├📍 https://saweria.co/ilmanhdyt
+┌〔 Donasi 〕
+├ chat owner ya kak
+├ wa.me/601127316764
 └────
-Berapapun donasi kalian akan sangat berarti 👍
+Berapapun donasi kalian akan sangat berarti bagi saya👍
 
 Arigatou!
 
 Contact person Owner:
-wa.me/6181351047727 (Owner)`
+wa.me/601127316764 (Owner)`
 let message = await prepareWAMessageMedia({ image: {url: 'https://telegra.ph/file/ca517a39ce85c8a4c0479.jpg' }}, { upload: conn.waUploadToServer })
      const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
      templateMessage: {
@@ -28,20 +28,20 @@ let message = await prepareWAMessageMedia({ image: {url: 'https://telegra.ph/fil
            hydratedFooterText: wm,
            hydratedButtons: [{
              urlButton: {
-               displayText: '🏧 Saweria',
-               url: 'https://saweria.co/ilmanhdyt'
+               displayText: 'Saweria Mursid',
+               url: 'https://saweria.co/mursid25'
              }
 
            },
                {
              callButton: {
-               displayText: 'Telkomsel',
-               phoneNumber: '+62 813-5104-7727'
+               displayText: 'Dana - Mursid',
+               phoneNumber: '6288233832771'
              }
            },           
                {
              quickReplyButton: {
-               displayText: '🧒 Owner',
+               displayText: '🧒 Owner-Zull',
                id: '.owner',
              }
 
