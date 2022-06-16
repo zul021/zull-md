@@ -47,6 +47,7 @@ const defaultMenu = {
 │ Bot ini masih tahap beta
 │ apabila ada bug/eror harap
 │ lapor ke owner
+│ Owner : wa.me/601127316764
 ╰❑
 %readmore`.trimStart(),
   header: '╭─「 %category 」',
@@ -167,14 +168,14 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
            hydratedButtons: [{
              urlButton: {
                displayText: '💠 Source Code',
-               url: 'https://github.com/ilmanhdyt/ShiraoriBOT-Md'
+               url: 'https://github.com/Botwa021'
              }
 
            },
              {
              callButton: {
                displayText: 'Nomor Owner',
-               PhoneNumber: '0813-5104-7727'
+               PhoneNumber: '601127316764'
              }
 
            },
